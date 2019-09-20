@@ -11,12 +11,12 @@ int main() {
 
 	falseSum = sum - 100;
 
-	for (int j = 0; j < 9; j++) {
-		for (int k = j + 1; k < 9; k++) {
-			if ((dwarf[j] + dwarf[k]) == falseSum)
+	for (int i = 0; i < 8; i++) {
+		for (int j = i + 1; j < 9; k++) {
+			if ((dwarf[i] + dwarf[j]) == falseSum)
 			{
+				dwarf[i] = -1;
 				dwarf[j] = -1;
-				dwarf[k] = -1;
 
 				sort(dwarf, dwarf + 9);
 
