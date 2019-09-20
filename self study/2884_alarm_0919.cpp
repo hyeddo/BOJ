@@ -15,4 +15,5 @@ int main() {
 	}
 
 	cout << H2 << " " << M2;
+	return 0;
 }

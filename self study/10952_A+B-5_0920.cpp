@@ -13,5 +13,5 @@ int main(){
 		if (A == 0 && B == 0) break;
 		cout << Sum(A, B) << '\n';
 	}
-	return 0;	
+	return 0;
 }
