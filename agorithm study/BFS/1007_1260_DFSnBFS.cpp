@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <queue>
 #include <vector>
+#include <cstring>
 using namespace std;
 
 int N, M, V;
